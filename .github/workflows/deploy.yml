@@ -7,9 +7,6 @@ on:
   pull_request:
     branches: ["main"]
 
-env:
-  TAR_OUTPUT_DESTINATION: deploy.tar
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -36,7 +33,7 @@ jobs:
             Dockerfile
             default.conf
             captain-definition
-          outPath: ${{ env.TAR_OUTPUT_DESTINATION }}
+          outPath: deploy.tar
 
       - name: Deploy App to CapRover
         uses: caprover/deploy-from-github@v1.0.1
