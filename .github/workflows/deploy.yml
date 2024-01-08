@@ -39,5 +39,5 @@ jobs:
         uses: caprover/deploy-from-github@v1.0.1
         with:
           server: "${{ secrets.CAPROVER_SERVER }}"
-          app: "test-astro"
+          app: "${{ secrets.CAPROVER_NAME }}"
           token: "${{ secrets.CAPROVER_KEY }}"
