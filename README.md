@@ -52,12 +52,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-```sh
-npx @getmeli/cli upload \
-    --url https://meli.hasanabi.info \
-    --site d8fec483-a6cc-4ac1-a3e6-bd086359f8a1 \
-    --token 974de93b8d5be9a3a77fac4d2899a69e6a8eb5bc6c79d0d8688866a038042d68 \
-    --branch "main" \
-    ./dist
-```
