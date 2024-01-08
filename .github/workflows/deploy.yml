@@ -30,6 +30,7 @@ jobs:
           cwd: "./"
           files: |
             /dist
+            Dockerfile
             captain-definition
           outPath: deploy.tar
 
