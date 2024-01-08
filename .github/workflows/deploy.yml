@@ -36,7 +36,7 @@ jobs:
             Dockerfile
             default.conf
             captain-definition
-          outPath: deploy.tar
+          outPath: $TAR_OUTPUT_DESTINATION
 
       - name: Deploy App to CapRover
         uses: caprover/deploy-from-github@v1.0.1
