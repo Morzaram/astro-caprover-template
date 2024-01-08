@@ -1,3 +1,12 @@
+# Critical Files for Caprover Deployment
+
+These are the files that you need to make this work:
+
+1. Dockerfile
+2. .github/workflows/deploy.yml
+3. captain-definition
+4. default.conf
+
 # Setup
 
 ## Github Action Setup
