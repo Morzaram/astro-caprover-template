@@ -14,9 +14,10 @@ These are the files that you need to make this work:
 Go to settings -> Secrets and variables -> actions
 
 Add the following secrets
-`CAPROVER_SERVER` - The server url of your caprover instance. This must be in the format of `https://caprover.example.com`
-`CAPROVER_NAME` - The name of the app you want to deploy to
-`CAPROVER_KEY` - The key of the app you want to deploy to
+
+- `CAPROVER_SERVER` - The server url of your caprover instance. This must be in the format of `https://caprover.example.com`
+- `CAPROVER_NAME` - The name of the app you want to deploy to
+- `CAPROVER_KEY` - The key of the app you want to deploy to
 
 ### `CAPROVER_SERVER` Secret
 
